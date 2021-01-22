@@ -1,0 +1,7 @@
+@:0,1:X,Y,B:L={0^n1^n}
+q0:0,q1,X,D:Y,q3,Y,D
+q1:0,q1,0,D:1,q2,Y,I:Y,q1,Y,D
+q2:0,q2,0,I:X,q0,X,D:Y,q2,Y,I
+q3:Y,q3,Y,D:B,q4,B,D
+Inicio:q0
+Final:q4
