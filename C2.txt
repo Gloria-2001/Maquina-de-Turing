@@ -1,0 +1,10 @@
+@:0,1:B,S,X:L={no hay lenguaje}
+q0:0,q0,0,D:1,q0,1,D:B,q0,B,D:S,q1,S,D
+q1:0,q1,0,D:1,q1,1,D:X,q2,X,I:B,q2,B,I
+q2:X,q2,X,I:0,q3,X,I:1,q3,X,I:S,q4,S,I
+q3:0,q3,0,I:1,q3,1,I:S,q4,S,I
+q4:X,q4,X,I:B,q6,B,S:0,q5,X,D:1,q5,X,D
+q5:X,q5,X,D:S,q1,S,D
+q6:X,q6,X,S:B,q1,B,S
+Inicio:q0
+Final:q6
